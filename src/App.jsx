@@ -7,10 +7,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='App'>Navbar
       <h1>Hiiiii</h1>
-    </>
+    </div>
   )
 }
 
-export default App
+export default App;
