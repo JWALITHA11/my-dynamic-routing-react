@@ -16,7 +16,7 @@ nav ul {
   
   nav ul li a:hover {
     font-size: large; 
-    color:crimson
+    color:crimson;
   }
   
   .services-container{
@@ -32,6 +32,4 @@ nav ul {
     color:darkmagenta;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  .links:hover{
-  font
-  }
+  
