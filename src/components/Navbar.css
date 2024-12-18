@@ -2,7 +2,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    gap: 40px; /* Adjust the gap as needed */
+    gap: 40px;
   }
   
   nav ul li {
