@@ -4,7 +4,9 @@ import './App.css';
 import Home from './components/Home';
 import Services from './components/Services';
 import Navbar from './components/Navbar';
+import ErrorFound from './components/ErrorNotFound';
 import {  Routes, Route } from 'react-router-dom';
+import ErrorNotFound from './components/ErrorNotFound';
 function App() {
   
 
@@ -15,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
+          <Route component ={ErrorNotFound} />
         </Routes>
    
     </div>
