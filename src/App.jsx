@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
-          <Route component ={ErrorNotFound} />
+          <Route path="*" element={<ErrorNotFound />} />
         </Routes>
    
     </div>
